@@ -12,8 +12,8 @@
 - Unzip the package
 - Create new folder `terraform-bins`
 - Copy the `terraform.exe` to a `terraform-bins`
-- Set PATH in windows 
-- Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+- Add in the PATH in environment variables in windows 
+- Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ## Step-03: LinuxOS: Terraform & AWS CLI Install
 - [Download Terraform](https://www.terraform.io/downloads.html)
@@ -77,10 +77,10 @@ sudo rm -rf /usr/local/aws-cli
 ```
 # Configure AWS Credentials in command line
 $ aws configure
-AWS Access Key ID [None]: AKIASUF7DEFKSIAWMZ7K
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: ***************
+AWS Secret Access Key [None]: *********************
 Default region name [None]: us-east-1
-Default output format [None]: json
+Default output format [None]: text
 
 # Verify if we are able list S3 buckets
 aws s3 ls
